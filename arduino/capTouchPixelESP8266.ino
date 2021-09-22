@@ -71,7 +71,7 @@ void setup() {
   delay(400);
   Serial.begin(115200);
 
-  WiFiMulti.addAP("", "");
+  WiFiMulti.addAP("SSID", "PSWRD");
 
   //WiFi.disconnect();
   while(WiFiMulti.run() != WL_CONNECTED) {
